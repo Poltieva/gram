@@ -1,0 +1,85 @@
+﻿NLP pipeline
+• Language identification 
+• Segmentation 
+• Normalization 
+• Transcribing 
+• Text classification 
+• POS tagging 
+• Named-entity recognition 
+• Relation extraction 
+• Syntactic parsing
+• Coreference resolution 
+• Semantic parsing ...
+
+Interesting references
+• Kyubyong, NLP Tasks and Selected References (2017) https://github.com/Kyubyong/nlp_tasks
+• Peter Eckersley and Yomna Nasser, Measuring the Progress of AI Research (ongoing) https://www.eff.org/ai/metrics
+• Peter Norvig, How to Write a Spelling Corrector (2007) https://norvig.com/spell-correct.html
+• Papantoniou K. and Konstantopoulos S., Unravelling Names of Fictional Characters (2016) https://www.aclweb.org/anthology/P16-1203
+• Deepmind, WaveNet: A Generative Model for Raw Audio (2016) https://deepmind.com/blog/wavenet-generative-model-raw-audio/
+• Mostafazadeh N. et al., A Corpus and Cloze Evaluation for Deeper Understanding of Commonsense Stories (2016) https://arxiv.org/pdf/1604.01696.pdf
+• Nick Montfort, World Clock (2013) http://nickm.com/poems/world_clock.pdf
+
+Syntactic trees
+
+Spacy
+
+NLP pipeline
+1 Lang identific
+# YaScan - sentiment-analysis
+# pip install langid
+2 Segmentation
+    sections
+    paragraphs
+    sentences
+    words
+3 Normalization
+4 Transcibing
+# modules: soundex
+5 Text classific or topic modelling
+# sklearn
+...
+10 Semantic parsing
+
+Methods of synt analysis
+    constit trees
+    depend tree
+
+Ling analys
+    substitut
+    ask quest
+    remove el
+    change word order
+    apply transformartions
+
+algorythms & data sructures - coursea, prometheus
+    hashing / caching
+    trees, graphs
+"clean code" - book
+NLP algorythms
+    LevenStein + confusion matrix
+    Lesk
+    transition-based - shift-reduce alg
+    graph-based alg
+    sequence labelling (LogRegression) <- ML
+    # Jurafsky - "Speech and lang processing"
+    # ACL anthology
+    # Mannong - "Statistical NLP"
+    # Chomsky vs Norvig
+    # Humboldt
+    # nltk book
+
+Full Cycle of an NLP project
+1 Domain analysis
+2 Data prep
+    Annotation:
+    Appan / Figure Eight
+    Amazon's Mechanical Turk
+ConceptNet
+BabelNet
+3 Metrics
+4 Baseline - simple solution
+  SOTA - state-of-the-art
+  Iterative improvement
+5 Feedback analysis
+6 Use case
